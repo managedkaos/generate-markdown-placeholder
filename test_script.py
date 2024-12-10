@@ -3,7 +3,7 @@ Unit tests
 """
 
 import unittest
-from script import custom_function
+from script import generate_markdown_link
 
 
 class TestGenerateMarkdownLink(unittest.TestCase):
