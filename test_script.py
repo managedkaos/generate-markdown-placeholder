@@ -7,7 +7,7 @@ from script import generate_markdown_link
 
 
 class TestGenerateMarkdownLink(unittest.TestCase):
-    def test_custom_function_with_input(self):
+    def test_with_input(self):
         """
         Test custom_function with a specific input
         """
@@ -16,8 +16,7 @@ class TestGenerateMarkdownLink(unittest.TestCase):
         self.assertEqual(generate_markdown_link(input_value), expected_output)
 
 
-class TestGenerateMarkdownLinkWithCustomBumper(unittest.TestCase):
-    def test_custom_function_with_input(self):
+    def test_with_input_and_custom_bumper(self):
         """
         Test custom_function with a specific input
         """
