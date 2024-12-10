@@ -2,7 +2,6 @@
 Unit tests
 """
 
-import sys
 import unittest
 from script import generate_markdown_link
 
