@@ -15,7 +15,6 @@ class TestGenerateMarkdownLink(unittest.TestCase):
         expected_output = "![Placeholder: My Link Text](https://placehold.co/600x400?text=Placeholder%3A+My+Link+Text)"
         self.assertEqual(generate_markdown_link(input_value), expected_output)
 
-
     def test_with_input_and_custom_bumper(self):
         """
         Test custom_function with a specific input
