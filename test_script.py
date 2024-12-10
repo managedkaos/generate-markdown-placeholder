@@ -4,7 +4,6 @@ Unit tests
 
 import sys
 import unittest
-from unittest.mock import patch
 from script import generate_markdown_link
 
 
