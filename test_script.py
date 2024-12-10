@@ -24,7 +24,9 @@ class TestGenerateMarkdownLinkWithCustomBumper(unittest.TestCase):
         input_value = "My Link Text"
         bumper_value = "Custom Bumper:"
         expected_output = "![Custom Bumper: My Link Text](https://placehold.co/600x400?text=Custom+Bumper%3A+My+Link+Text)"
-        self.assertEqual(generate_markdown_link(input_value, bumper_value), expected_output)
+        self.assertEqual(
+            generate_markdown_link(input_value, bumper_value), expected_output
+        )
 
 
 if __name__ == "__main__":
