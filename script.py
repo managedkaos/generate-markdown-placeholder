@@ -6,7 +6,7 @@ import sys
 import urllib.parse
 
 
-def generate_markdown_link(text, bumper="Video Placeholder:"):
+def generate_markdown_link(text, bumper="Placeholder:"):
     """
     Generates a markdown link with URL encoded text.
 
